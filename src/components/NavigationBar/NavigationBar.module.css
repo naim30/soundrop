@@ -1,0 +1,30 @@
+.NavigationBar {
+  display: flex;
+  width: 90%;
+  max-width: 1300px;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.LogoContainer {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .NavigationBar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .NavigationBar {
+    flex-direction: column;
+  }
+  .LogoContainer {
+    width: 100%;
+  }
+}

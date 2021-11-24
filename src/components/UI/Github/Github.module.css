@@ -1,0 +1,9 @@
+.Github {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+
+.Github > div > img {
+  height: 25px;
+  width: 25px;
+}

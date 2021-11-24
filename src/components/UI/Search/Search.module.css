@@ -1,0 +1,43 @@
+.Search {
+  padding: 3px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid rgb(245, 245, 245);
+  width: 20%;
+}
+
+.Search > span {
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Search > span > img {
+  height: 18px;
+  width: 18px;
+}
+
+.Search > input {
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .Search {
+    width: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+  .Search {
+    margin: 20px 0px;
+    width: 100%;
+  }
+}
