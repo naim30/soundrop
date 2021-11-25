@@ -1,0 +1,96 @@
+.Tile {
+  position: relative;
+  background-color: rgb(241, 241, 241);
+  height: 160px;
+  width: 160px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.Selected::after {
+  position: absolute;
+  content: "";
+  top: calc(-1 * 3px);
+  left: calc(-1 * 3px);
+  z-index: -1;
+  width: calc(100% + 3px * 2);
+  height: calc(100% + 3px * 2);
+  background: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * 3px);
+  animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.Container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Name {
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #531919;
+  font-size: 14px;
+}
+
+.Icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon > img {
+  height: 60px;
+}
+
+.SoundBar {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 4px;
+  background: #d8d8d8;
+  margin: 10px 5px;
+}
+
+.SoundBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #5e2222;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+@media (max-width: 470px) {
+  .Tile {
+    height: 200px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,24 @@
+.Recipe {
+  position: relative;
+  max-width: 600px;
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+.Recipe > div:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.Recipe > div:nth-child(1) > img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.Recipe > div:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
