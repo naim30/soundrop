@@ -28,7 +28,7 @@ You can find many sounds like...
 
 ### Share :
 
-You can create your personal recipe of sound and share it with your friends.
+Create your personal recipe of sound, copy your recipe and share it with your friends.
 <br>
 Paste recipe and press enter, it will play sound mix they created.
 
@@ -37,7 +37,7 @@ Here's why:
 - I created this app so that I can be more productive.
 - in addition I also learn how to use audio in reactjs
 
-Mix and match sounds, and share your creative recipe with others
+Mix and match sounds, and share your creative recipe with your friends.
 
 ## Built With
 
