@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/soundrop/static/css/main.5b02931a.chunk.css",
-    "main.js": "/soundrop/static/js/main.814c6bb3.chunk.js",
-    "main.js.map": "/soundrop/static/js/main.814c6bb3.chunk.js.map",
+    "main.css": "/soundrop/static/css/main.0cea4c27.chunk.css",
+    "main.js": "/soundrop/static/js/main.b4e66ec4.chunk.js",
+    "main.js.map": "/soundrop/static/js/main.b4e66ec4.chunk.js.map",
     "runtime-main.js": "/soundrop/static/js/runtime-main.cb608b29.js",
     "runtime-main.js.map": "/soundrop/static/js/runtime-main.cb608b29.js.map",
     "static/js/2.45678a2f.chunk.js": "/soundrop/static/js/2.45678a2f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ce97ad0.chunk.js": "/soundrop/static/js/3.2ce97ad0.chunk.js",
     "static/js/3.2ce97ad0.chunk.js.map": "/soundrop/static/js/3.2ce97ad0.chunk.js.map",
     "index.html": "/soundrop/index.html",
-    "static/css/main.5b02931a.chunk.css.map": "/soundrop/static/css/main.5b02931a.chunk.css.map",
+    "static/css/main.0cea4c27.chunk.css.map": "/soundrop/static/css/main.0cea4c27.chunk.css.map",
     "static/js/2.45678a2f.chunk.js.LICENSE.txt": "/soundrop/static/js/2.45678a2f.chunk.js.LICENSE.txt",
     "static/media/cafe.a8603741.mp3": "/soundrop/static/media/cafe.a8603741.mp3",
     "static/media/farm.f95abab1.mp3": "/soundrop/static/media/farm.f95abab1.mp3",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb608b29.js",
     "static/js/2.45678a2f.chunk.js",
-    "static/css/main.5b02931a.chunk.css",
-    "static/js/main.814c6bb3.chunk.js"
+    "static/css/main.0cea4c27.chunk.css",
+    "static/js/main.b4e66ec4.chunk.js"
   ]
 }
