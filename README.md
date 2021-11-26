@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center">
+  <h1 align="center">Soundrop</h1>
 
-## Available Scripts
+  <p align="center">
+     Create the perfect environment to work and relax
+  </p>
+</div>
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+Here is a quick demo of the app. I hope you enjoy it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> [The Demo Link](https://naim30.github.io/soundrop/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+![Landing page Screenshot](public/homepage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app was created with reactjs. You can use this tool to build a sound mix that will help you become more productive, focused, or relaxed.
+<br>
 
-### `npm run build`
+You can find many sounds like...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- cafe, farm, forest, rain, windchime etc...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Share :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can create your personal recipe of sound and share it with your friends.
+<br>
+Paste recipe and press enter, it will play sound mix they created.
 
-### `npm run eject`
+Here's why:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- I created this app so that I can be more productive.
+- in addition I also learn how to use audio in reactjs
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create your sound mix and share it with your friends...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To build this App I used..
 
-## Learn More
+- React JS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+step 1 : Clone the repo
 
-### Code Splitting
+```sh
+git clone https://github.com/naim30/soundrop.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+step 2 : Install libraries
 
-### Analyzing the Bundle Size
+```sh
+cd soundrop
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+step 3 : Open the app in localhost
 
-### Making a Progressive Web App
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+Naimish Lukhi :
+Email - naimlukhi30@gmail.com :
+[LinkedIn](https://www.linkedin.com/in/naimish-lukhi-a2b14a1b9)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Project Link: [https://github.com/naim30/mastermind-game](https://github.com/naim30/mastermind-game)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
