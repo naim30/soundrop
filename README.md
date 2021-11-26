@@ -37,7 +37,7 @@ Here's why:
 - I created this app so that I can be more productive.
 - in addition I also learn how to use audio in reactjs
 
-Create your sound mix and share it with your friends...
+Mix and match sounds, and share your creative recipe with others
 
 ## Built With
 
