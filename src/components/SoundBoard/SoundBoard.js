@@ -10,7 +10,7 @@ const soundBoard = (props) => {
         changeProgressbar={props.changeProgressbar}
         toggleSoundhandler={props.toggleSoundhandler}
       />
-      <Recipe />
+      <Recipe recipe={props.recipe} />
     </div>
   );
 };

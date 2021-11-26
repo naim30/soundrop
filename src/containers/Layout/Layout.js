@@ -95,27 +95,59 @@ class Layout extends Component {
         emoji: emojis.windchimeemoji,
       },
     ],
+    recipe: "✨ create your own recipe ✨",
   };
 
   progressObj = [
-    ["a soft rhythmic sound of", "a whisper sound of"],
+    ["a soft rhythmic sound of", "a whispering sound of"],
     ["light rhythmic sound of", "a hint of"],
     ["light consistence sound of", "soft sound of"],
     ["smidge sound of"],
     ["a heavy dose of"],
     ["strong consistent sound of"],
-    ["loud sound of", "strong sound of"],
+    ["loud sound of"],
     ["a large portion of"],
     ["an ever-present consistent sound of"],
-    ["loud steady sound of "],
-    ["intensive steady sound of"],
+    ["intensive steady sound of", "strong sound of", "loud steady sound of"],
   ];
+
+  createRecipe = (sounds, progressObj) => {
+    let recipe = [];
+    sounds.forEach((sound) => {
+      if (sound.on) {
+        recipe.push(
+          `${
+            progressObj[sound.volume - 1][
+              Math.floor(Math.random() * progressObj[sound.volume - 1].length)
+            ]
+          } ${sound.name}`
+        );
+      }
+    });
+
+    if (recipe.length > 1) {
+      recipe.splice(
+        recipe.length - 2,
+        2,
+        recipe[recipe.length - 2] + " and " + recipe[recipe.length - 1]
+      );
+    }
+    if (recipe.length === 0) {
+      this.setState({ recipe: "✨ create your own recipe ✨" });
+      return;
+    }
+
+    this.setState({ recipe: recipe.join(", ") });
+  };
+
+  getRecipe = () => {};
 
   changeProgressbar = (event, id, sound) => {
     sound.current.volume = event.target.value / 10;
     let newSounds = [...this.state.sounds];
     newSounds[id].volume = event.target.value;
     this.setState({ sounds: newSounds });
+    this.createRecipe(newSounds, this.progressObj);
   };
 
   toggleSoundhandler = (id, sound) => {
@@ -127,6 +159,7 @@ class Layout extends Component {
     }
     newSounds[id].on = !newSounds[id].on;
     this.setState({ sounds: newSounds });
+    this.createRecipe(newSounds, this.progressObj);
   };
 
   render() {
@@ -137,6 +170,7 @@ class Layout extends Component {
           sounds={this.state.sounds}
           changeProgressbar={this.changeProgressbar}
           toggleSoundhandler={this.toggleSoundhandler}
+          recipe={this.state.recipe}
         />
       </div>
     );

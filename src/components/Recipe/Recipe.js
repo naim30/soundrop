@@ -8,10 +8,7 @@ const recipe = (props) => {
         <img src={recipeImage} alt="recipe emoji" />
         YOUR RECIPE :
       </div>
-      <div>
-        lorem asnf kajbf askjfasfasdnbf asdfasdnhnfsdf sdaf asbfjbjasdfsda jkf
-        fn sdafbjkasd fnmsd jkfbsdjkf jasdf ns fhjkrsbfj{" "}
-      </div>
+      <div>{props.recipe}</div>
     </div>
   );
 };
