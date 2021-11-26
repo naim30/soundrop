@@ -15,6 +15,14 @@ const Tile = (props) => {
       )`,
   };
 
+  if (sound.current && sound.current.paused && props.on) {
+    sound.current.play();
+    sound.current.volume = props.volume / 10;
+  }
+  if (sound.current && !sound.current.paused && !props.on) {
+    sound.current.pause();
+  }
+
   return (
     <div className={[classes.Tile, props.on ? classes.Selected : ""].join(" ")}>
       <div

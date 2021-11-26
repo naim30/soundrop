@@ -10,7 +10,7 @@ const navigationBar = (props) => {
         <Github />
         <Logo />
       </div>
-      <Search />
+      <Search getRecipeHandler={props.getRecipeHandler} />
     </div>
   );
 };

@@ -9,6 +9,7 @@ const recipe = (props) => {
         YOUR RECIPE :
       </div>
       <div>{props.recipe}</div>
+      <div>copy and share your recipe with others</div>
     </div>
   );
 };

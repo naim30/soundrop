@@ -7,7 +7,11 @@ const search = (props) => {
       <span>
         <img src={SearchIcon} alt="search-icons" />
       </span>
-      <input type="text" placeholder="enter recipe here..." />
+      <input
+        type="text"
+        placeholder="enter recipe + enter"
+        onKeyUp={props.getRecipeHandler}
+      />
     </div>
   );
 };

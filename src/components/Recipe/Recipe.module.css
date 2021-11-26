@@ -22,3 +22,10 @@
   font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
+
+.Recipe > div:nth-child(3) {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}

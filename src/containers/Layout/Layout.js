@@ -114,7 +114,7 @@ class Layout extends Component {
   createRecipe = (sounds, progressObj) => {
     let recipe = [];
     sounds.forEach((sound) => {
-      if (sound.on) {
+      if (sound.on && sound.volume > 0) {
         recipe.push(
           `${
             progressObj[sound.volume - 1][
@@ -140,7 +140,39 @@ class Layout extends Component {
     this.setState({ recipe: recipe.join(", ") });
   };
 
-  getRecipe = () => {};
+  getRecipeHandler = (event) => {
+    if (event.keyCode === 13) {
+      let text = event.target.value;
+      let textArr = text.split(",").map((a) => a.trim());
+      if (textArr.length > 1 || textArr[0].indexOf("and") !== -1) {
+        textArr.splice(
+          textArr.length - 1,
+          1,
+          ...textArr[textArr.length - 1].split("and").map((a) => a.trim())
+        );
+      }
+      let newSounds = [...this.state.sounds];
+      newSounds = newSounds.map((a) => ({ ...a, on: false }));
+
+      for (let i = 0; i < textArr.length; i++) {
+        let soundArr = textArr[i].split(" ");
+        let sound = soundArr[soundArr.length - 1];
+        let volume =
+          this.progressObj.findIndex((a) =>
+            a.includes(soundArr.slice(0, -1).join(" "))
+          ) + 1;
+        console.log(volume);
+        let index = newSounds.findIndex((a) => a.name === sound);
+        newSounds[index] = {
+          ...newSounds[index],
+          name: sound,
+          volume: volume,
+          on: true,
+        };
+        this.setState({ sounds: newSounds });
+      }
+    }
+  };
 
   changeProgressbar = (event, id, sound) => {
     sound.current.volume = event.target.value / 10;
@@ -165,7 +197,9 @@ class Layout extends Component {
   render() {
     return (
       <div className={classes.Layout}>
-        <NavigationBar />
+        <NavigationBar
+          getRecipeHandler={(event) => this.getRecipeHandler(event)}
+        />
         <SoundBoard
           sounds={this.state.sounds}
           changeProgressbar={this.changeProgressbar}
