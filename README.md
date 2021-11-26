@@ -72,6 +72,6 @@ Naimish Lukhi :
 Email - naimlukhi30@gmail.com :
 [LinkedIn](https://www.linkedin.com/in/naimish-lukhi-a2b14a1b9)
 
-Project Link: [https://github.com/naim30/mastermind-game](https://github.com/naim30/mastermind-game)
+Project Link: [https://github.com/naim30/soundrop](https://github.com/naim30/soundrop)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
