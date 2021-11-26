@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/soundrop/static/css/main.5b02931a.chunk.css",
+    "main.js": "/soundrop/static/js/main.814c6bb3.chunk.js",
+    "main.js.map": "/soundrop/static/js/main.814c6bb3.chunk.js.map",
+    "runtime-main.js": "/soundrop/static/js/runtime-main.cb608b29.js",
+    "runtime-main.js.map": "/soundrop/static/js/runtime-main.cb608b29.js.map",
+    "static/js/2.45678a2f.chunk.js": "/soundrop/static/js/2.45678a2f.chunk.js",
+    "static/js/2.45678a2f.chunk.js.map": "/soundrop/static/js/2.45678a2f.chunk.js.map",
+    "static/js/3.2ce97ad0.chunk.js": "/soundrop/static/js/3.2ce97ad0.chunk.js",
+    "static/js/3.2ce97ad0.chunk.js.map": "/soundrop/static/js/3.2ce97ad0.chunk.js.map",
+    "index.html": "/soundrop/index.html",
+    "static/css/main.5b02931a.chunk.css.map": "/soundrop/static/css/main.5b02931a.chunk.css.map",
+    "static/js/2.45678a2f.chunk.js.LICENSE.txt": "/soundrop/static/js/2.45678a2f.chunk.js.LICENSE.txt",
+    "static/media/cafe.a8603741.mp3": "/soundrop/static/media/cafe.a8603741.mp3",
+    "static/media/farm.f95abab1.mp3": "/soundrop/static/media/farm.f95abab1.mp3",
+    "static/media/forest.c92b5872.mp3": "/soundrop/static/media/forest.c92b5872.mp3",
+    "static/media/github.28668213.svg": "/soundrop/static/media/github.28668213.svg",
+    "static/media/keyboard.2969468b.mp3": "/soundrop/static/media/keyboard.2969468b.mp3",
+    "static/media/library.abc5bb69.mp3": "/soundrop/static/media/library.abc5bb69.mp3",
+    "static/media/lightning.8089daed.mp3": "/soundrop/static/media/lightning.8089daed.mp3",
+    "static/media/night.c40e070b.mp3": "/soundrop/static/media/night.c40e070b.mp3",
+    "static/media/ocean.3b35f8f7.mp3": "/soundrop/static/media/ocean.3b35f8f7.mp3",
+    "static/media/office.0513212c.mp3": "/soundrop/static/media/office.0513212c.mp3",
+    "static/media/rain.f544daaf.mp3": "/soundrop/static/media/rain.f544daaf.mp3",
+    "static/media/search.9097a298.svg": "/soundrop/static/media/search.9097a298.svg",
+    "static/media/wind.5efb82fb.mp3": "/soundrop/static/media/wind.5efb82fb.mp3",
+    "static/media/windchime.f7d9706b.mp3": "/soundrop/static/media/windchime.f7d9706b.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb608b29.js",
+    "static/js/2.45678a2f.chunk.js",
+    "static/css/main.5b02931a.chunk.css",
+    "static/js/main.814c6bb3.chunk.js"
+  ]
+}
