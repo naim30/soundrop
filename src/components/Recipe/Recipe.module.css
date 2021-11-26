@@ -28,4 +28,17 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.Recipe > div:nth-child(3) > img {
+  height: 35px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.Recipe > div:nth-child(3) > img:hover {
+  background-color: rgb(245, 237, 253);
+  border-radius: 5px;
 }

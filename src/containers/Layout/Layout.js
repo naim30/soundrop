@@ -194,6 +194,11 @@ class Layout extends Component {
     this.createRecipe(newSounds, this.progressObj);
   };
 
+  copyToClipboardhandler = () => {
+    navigator.clipboard.writeText(this.state.recipe);
+    alert("recipe copied...");
+  };
+
   render() {
     return (
       <div className={classes.Layout}>
@@ -205,6 +210,7 @@ class Layout extends Component {
           changeProgressbar={this.changeProgressbar}
           toggleSoundhandler={this.toggleSoundhandler}
           recipe={this.state.recipe}
+          copyToClipboardhandler={this.copyToClipboardhandler}
         />
       </div>
     );
