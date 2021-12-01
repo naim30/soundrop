@@ -142,6 +142,7 @@ class Layout extends Component {
 
   getRecipeHandler = (event) => {
     if (event.keyCode === 13) {
+      event.target.blur();
       let text = event.target.value;
       let textArr = text.split(",").map((a) => a.trim());
       if (textArr.length > 1 || textArr[0].indexOf("and") !== -1) {
