@@ -3,10 +3,7 @@
   flex-direction: column;
   width: 90%;
   max-width: 1300px;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  border-top: 1px solid #d8d8d8;
-  border-left: 1px solid #d8d8d8;
-  border-right: 1px solid #d8d8d8;
-  justify-content: center;
+  border: 1px solid #d8d8d8;
 }

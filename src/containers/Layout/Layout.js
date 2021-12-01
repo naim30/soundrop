@@ -195,8 +195,14 @@ class Layout extends Component {
   };
 
   copyToClipboardhandler = () => {
-    navigator.clipboard.writeText(this.state.recipe);
-    alert("recipe copied...");
+    navigator.clipboard
+      .writeText(this.state.recipe)
+      .then(() => {
+        alert("recipe copied...");
+      })
+      .catch((err) => {
+        alert(err);
+      });
   };
 
   render() {
