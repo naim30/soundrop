@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soundrop/static/css/main.b2f81315.chunk.css",
-    "main.js": "/soundrop/static/js/main.31902865.chunk.js",
-    "main.js.map": "/soundrop/static/js/main.31902865.chunk.js.map",
+    "main.js": "/soundrop/static/js/main.23f245f0.chunk.js",
+    "main.js.map": "/soundrop/static/js/main.23f245f0.chunk.js.map",
     "runtime-main.js": "/soundrop/static/js/runtime-main.cb608b29.js",
     "runtime-main.js.map": "/soundrop/static/js/runtime-main.cb608b29.js.map",
     "static/js/2.45678a2f.chunk.js": "/soundrop/static/js/2.45678a2f.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.cb608b29.js",
     "static/js/2.45678a2f.chunk.js",
     "static/css/main.b2f81315.chunk.css",
-    "static/js/main.31902865.chunk.js"
+    "static/js/main.23f245f0.chunk.js"
   ]
 }
